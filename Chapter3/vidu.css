@@ -1,0 +1,40 @@
+@media screen and (min-width:1024px){
+    .grid-container{
+        display:grid;
+        grid-auto-columns: auto auto auto;
+    }
+    .grid-item {
+        background-color: #d0e5f3;
+        border: 1px ;
+        padding: 10px;
+        font-size: 20px;
+        text-align: center;     
+        }
+     .header{
+         grid-column-start:1 ;
+         grid-column-end: 4;
+       }
+     .menu{
+       grid-row-start: 2;
+       grid-row-end: 4;
+     }
+     .footer{
+       grid-column-start: 2;
+       grid-column-end: 4;
+     }
+}
+@media screen and (max-width:1024px){
+    .grid-container{
+        display:grid;
+        grid-auto-columns: auto auto;
+    }
+    .header , .menu , .footer{
+        grid-column-start:1 ;
+        grid-column-end: 3;
+}}
+@media screen and (max-width:640px){
+    .grid-container{
+        display:grid;
+        
+    }
+}

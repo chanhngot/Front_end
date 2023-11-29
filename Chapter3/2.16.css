@@ -1,0 +1,79 @@
+* {
+    font-size: 15pt;
+    margin-top: 0.5vh;
+   
+  
+}
+.form .img{
+    display:flex;
+    justify-content: center;
+}
+.form .btn_nop{
+    display:flex;
+    margin:auto;
+    justify-content: center;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px ridge gainsboro;
+    padding:10px;
+}
+
+
+.form .item {
+    display: flex;
+    margin-left: 1vw;
+    margin-top: 0.5vw;
+}
+
+
+.form .item>label {
+    width: 30%;
+    font-weight: bold;
+}
+
+
+.form .item>input {
+    width: 65%;
+}
+
+
+
+
+@media screen and (max-width: 640px) {
+   
+    .form{
+        width: 100%;
+    }    
+    .form .item {
+        display: flex;
+        flex-direction:column;
+    }
+    .form .item>input {
+        width: 95%;
+    }  
+    .form .btn>input{
+        text-align:center;
+    }  
+}
+
+@media screen and (min-width: 768px) {
+  
+    .form{
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+   
+    .form_DangKy{
+        width: 50%;
+    }
+}
+
