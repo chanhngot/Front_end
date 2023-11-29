@@ -1,0 +1,21 @@
+.anh, .hop {
+    float:none;
+    height:300px;
+}
+.anh {
+    float:left;
+    width:65%}
+.anh>img {
+    float:left;
+    width:100%;
+}
+.hop {
+    float:right;
+    width:30%;}
+.h1>img {
+    width:50%;
+}
+.h1>span {
+    float:inline-end;
+    width:50%;
+}
